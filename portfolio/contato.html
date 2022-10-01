@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Daniel Vitor Duarte</h1>
+            <h2> Estudante de Sistemas de Informação</h2>
+            <details>
+                <summary>Menu</summary>
+                <nav>
+                    <a href=index.html> Página principal </a> |
+                    <a href=sobre.html> Sobre mim </a> |
+                    <a href=formacao.html> Formação </a> |
+                    <a href=atuacaoprofissional.html> Atuação profissional </a> |
+                    <a href=contato.html> Contato </a> |
+                    <a href=portfolio.html> Portfólio </a> |
+                    <a href=tecnologia.html> Descrição tecnologia </a>
+                </nav>
+            </details>
+            <hr>
+        </div>
+    </header>
+
+    <h1>Contato<br></h1>
+    <hr>
+    <i>Tire todas as suas dúvidas ou envie suas sugestões para mim.</i>
+    <h3>Entre em contato comigo através das redes sociais<br></h3>
+    <a href="https://www.linkedin.com/in/dvduarte" target="_blank">Linkedin</a><br>
+    <a href="https://twitter.com/danielvitasso" target="_blank">Twitter</a><br>
+    <a href="https://github.com/DVDuarte" target="_blank">Github</a>
+
+
+    <h3>Entre em contato por e-mail</h3>
+    Entre em contato comigo através do meu e-mail danielvitasso@gmail.com ou preenchendo o formulário de
+    contato abaixo.
+
+    <pre>Itens em * são de preenchimento obrigatório</pre><br>
+    <br>
+    <form action="\formulario.html" method="get">
+        <fieldset>
+            <legend>Formulário</legend>
+            <label for="nome">*Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome" name="sobrenome"><br><br>
+            <label for="ativo">*Possui Cadastro:</label>
+            <input type="checkbox" name="ativo" value="ativo" required><br><br>
+            <fieldset>
+                <legend>
+                    *Sexo
+                </legend>
+                <label for="masculino"></label>
+                <input type="radio" required id="masculino" name="sexo">Masculino<br>
+                <label for="feminino"></label>
+                <input type="radio" required id="feminino" name="sexo">Feminino<br>
+            </fieldset><br><br>
+
+            <label for="estadoCivil">Estado civil:</label>
+            <select name="estadoCivil" id="estadoCivil">
+                <option value="Casado">Casado</option>
+                <option value="Solteiro">Solteiro</option>
+                <option value="Viuvo">Viuvo</option>
+
+            </select><br><br>
+            <label for="imgPerfil">Foto do seu problema ou sugestão:</label>
+            <input type="file" id="imgPerfil" name="imgPerfil" accept="image/*"><br><br>
+            <label for="mensagem">*Digite sua mensagem:</label><br>
+            <textarea id="mensagem" rows="10" cols="40" required></textarea><br><br>
+            <label for="enviar">Se tiver concluído clique em enviar</label><br>
+            <input type="submit" id="enviar">
+        </fieldset>
+    </form>
+    <br>
+    <footer>
+        <hr>
+        <div>
+            <center>
+                <h5>Redes sociais</h5>
+                <a href="https://www.linkedin.com/in/dvduarte" target="_blank">
+                    <img src="/portfolio/img/LI-Logo.png" alt="linkedin" width="60" height="60">
+                </a><br>
+                <a href="https://twitter.com/danielvitasso" target="_blank">
+                    <img src="/portfolio/img/twitter-logo.png" alt="twitter" width="60" height="60">
+                </a><br>
+                <a href="https://github.com/DVDuarte" target="_blank">
+                    <img src="/portfolio/img/GitHub-Mark-120px-plus.png" alt="github" width="60" height="60">
+                </a>
+            </center>
+        </div>
+    </footer>
+
+</body>
+
+</html>
